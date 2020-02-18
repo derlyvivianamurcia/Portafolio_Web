@@ -1,0 +1,130 @@
+body{
+    background-color: rgba(255, 255, 255, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.header{
+    border: 2px solid rgba(161, 42, 165, 0.294);
+    border: outset;
+
+}
+.header__menu{
+    color: rgb(0, 183, 255);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*PASAR EL MOUSE POR ENCIMA Y CAMBIA*/
+.header__menu a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+  
+}
+.banner{
+    color:black;
+    background-color:white;
+
+}
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.portafolio{
+    display: flex;
+    margin: 100px 0;
+
+}
+.portafolio__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px grey ;
+    border-radius: 10px;
+    width: 33%;
+
+}
+.portafolio__box img{
+    border-radius: 10px;
+}
+.portafolio__card{
+    margin: 20px;
+    padding: 5px;
+}
+.portafolio__card button{
+    background-color: teal;
+    color: thistle;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px grey;
+}
+.title{
+    border-left: 6px solid rgb(2, 154, 255);
+    background-color: rgba(100, 232, 255, 0.52);
+}
+.experiencie{
+    display: flex;
+    margin: 100px 0;
+}
+.experiencie__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px gray;
+    border-radius: 10px;
+    width: 50%;
+
+}
+.experiencie__box img{
+    border-radius: 10px;
+}
+
+.experiencie__body{
+    box-shadow: 0px -10px 10px 2px rgba(179, 230, 245, 0.794);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer{
+    color:black;
+    background-color: rgb(2, 66, 75);
+}
+.footer .footer__sections{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+.footer__sections i{
+    padding: 10px;
+    
+}
+.copyright p{
+margin-top: 0;
+margin-bottom: 0;
+background-color: black;
+text-align: center;
+color: white;
+font-style: italic;
+
+}
